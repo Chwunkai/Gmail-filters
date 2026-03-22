@@ -5,13 +5,16 @@
 `{}` 為 OR，`()` 為 AND，`subject:` 代表以電子郵件標題進行篩選，更詳細的語法可以參考 [在 Gmail 中修正搜尋結果](https://support.google.com/mail/answer/7190?hl=zh-Hant)。
 ## 篩選器種類
 因篩選器有字數限制，所以過長的篩選器必須拆分為多個篩選器。
-| 篩選器種類 | 對應檔案 |
+| 篩選器 | 內容 |
 | ---- | ---- |
-| 發票收據 | [invoice.txt](https://github.com/trevor1112/Gmail-filters/blob/4fe1973cf67e1c69d4f4aaf56b620fae5d3c4387/invoice.txt) |
-| 登入通知 | [login-notification-1.txt](https://github.com/trevor1112/Gmail-filters/blob/4fe1973cf67e1c69d4f4aaf56b620fae5d3c4387/login-notification-1.txt)<br>[login-notification-2.txt](https://github.com/trevor1112/Gmail-filters/blob/4fe1973cf67e1c69d4f4aaf56b620fae5d3c4387/login-notification-2.txt) |
-| 訂單通知 | [order-notification-1.txt](https://github.com/trevor1112/Gmail-filters/blob/4fe1973cf67e1c69d4f4aaf56b620fae5d3c4387/order-notification-1.txt)<br>[order-notification-2.txt](https://github.com/trevor1112/Gmail-filters/blob/4fe1973cf67e1c69d4f4aaf56b620fae5d3c4387/order-notification-2.txt)<br>[order-notification-3.txt](https://github.com/trevor1112/Gmail-filters/blob/4fe1973cf67e1c69d4f4aaf56b620fae5d3c4387/order-notification-3.txt) |
-| 驗證碼 | [verification-code.txt](https://github.com/trevor1112/Gmail-filters/blob/4fe1973cf67e1c69d4f4aaf56b620fae5d3c4387/verification-code.txt) |
-| 電子帳單 | [e-bills.txt](https://github.com/trevor1112/Gmail-filters/blob/4fe1973cf67e1c69d4f4aaf56b620fae5d3c4387/e-bills.txt) |
-| 銀行交易通知 | [bank-transaction-notification.txt](https://github.com/trevor1112/Gmail-filters/blob/4fe1973cf67e1c69d4f4aaf56b620fae5d3c4387/bank-transaction-notification.txt) |
-## 螢幕截圖
-![螢幕擷取畫面 2024-12-06 140319](https://github.com/user-attachments/assets/c533be80-c982-4c90-a130-8b1f25dae359)
+| 訂單通知 | subject:({"訂單" "確認訂餐" "網路訂餐明細" "搭乘的行程" "行程取消" ("訂購" {"成功" "確認" "訊息" "通知" "單" "的"}) ("感謝" {"訂購" "訂餐" "購買" "惠顧"}) "購買成功" "購買通知" "交易成功" "交易取消" "取消交易" "付款成功" "付款失敗" "付款完成" "付款結果" "付款交易" "已付款" "已出貨" "出貨通知" "出貨提醒" "出貨簡訊" "出貨完成" "開始出貨" "準備出貨" "已寄出" "已經遞送" "派送通知" "發貨" "送貨" "送達" "運送" "到貨通知"} -{"發票" "收據" "優惠" "調整" "提領" "invoice" "receipt" "pre-order" "order now"})<br>subject:({"取貨通知" ({"已追蹤" "可提領"} "現金回饋") "最新交易" "刷卡結果" "信用卡交易結果" "會員資格" "已購買" "已訂閱" "你訂閱的" "訂閱方案" "訂閱項目" ("訂閱" {"確認" "取消"}) "退訂申請" "即將續訂" "已被續訂" "訂票確認" "購票確認" "支持成功" "匯款成功" "收款成功" "繳款成功" "繳款完成" "提款申請" "提款完成" "付款確認" "款項" "退款" "退貨" "評價" "購物滿意度" "交易審核" "購買清單" "購物清單"} -{"發票" "收據" "優惠" "電子報" "活動通知" "invoice" "receipt" "pre-order" "order now"}) -from:me<br>subject:({"試用期" "加值服務" "感謝您的惠顧" "轉運單" "貨件" "貨物" "包裹" "購買最新狀態" "收費通知" "準備取件" "授權付款" "成功支付" "自動續購" "正式成為" "shipped" "on its way" "order" "ordered" "purchase success" ("payment" {"successful" "succeeded"}) "buy with card" "be canceled"} -{"發票" "收據" "優惠" "invoice" "receipt" "pre-order" "order now"}) |
+| 登入通知 | subject:({"登入通知" "登入成功" "登录成功" "成功登入" "登入裝置" "裝置登入" "新裝置" "一台新設備" "新登录" "正登入" "有登入" "繼續進行下個步驟" "帳密驗證成功" ("從新" "IP") ("登入" {"新" "有人" "保持" "失敗" "錯誤" "異常" "警告" "警示" "提示" "確認" "安全性" "位置"})} -({("登入" {"驗證" "認證"}) "登入密碼通知" "免費"} -{"登入裝置" "啟用" "成功"}))<br>{subject:({"login" "login attempted" "new login" "new device" "sign in" "signed in" "has been accessed"} -{"can't" "turned" "code"}) {"新的裝置登入" "新的登入活動" "已取得您的 Google 帳戶存取權" "已登出帳戶"}} |
+| 發票收據 | subject:({"發票" "收據" "繳費結果" "invoice" "receipt"} -{"歸戶設定" "驗證碼" "密碼" "領獎資料" "兌獎結果" "發票存摺" "中獎"}) |
+| 驗證碼 | subject:({"驗證碼" "驗證信" "認證碼" "認證信" ({"認證" "一次性" "動態"} "密碼") ({"驗證" "验证" "認證" ("確認" -"登入")} {"email" "e-mail" "電子郵件" "電郵" "郵件" "郵箱" "邮箱" "信箱" "帳號" "帳戶" "身份" "憑證" "登入" "註冊"}) ({"verification" "verify" "confirmation" "confirm"} {"email" "e-mail" "code" "access" "enabling" "device" ("your" "account" -"documentation")}) ({"你的" "your"} {"代碼" "code"})} -{"登入裝置" "已" ("啟用" -"立即") "成功" "設定" "結果" "更新" "補件" "申請交易認證碼" "安全性" "競賽" "失效"}) |
+| 電子帳單 | subject:({"對帳單" "電子帳單" "電子消費通知書" "費用通知單" "月結單" ({"電費" "水費"} {"通知" "憑證"})} -{"申辦"}) |
+| 銀行交易通知 | subject:({({"轉帳" "帳務" ("信用卡" {"繳費" "繳款" "交易"}) ("新光" {"刷卡" "交易回報"})} "通知") ({"轉入" "轉出" "郵局" "帳戶連結" "帳戶提領" "account link"} "交易") ({"ATM" "無卡"} "提款") ({"開立" "解約"} "定存") "收益分配"} -{"申請" "設定" "無法" "付款" "條款" "調整"}) |
+## 如何使用
+1. 開啟 [Gmail 網頁版](https://mail.google.com/mail/#settings/filters) > 點擊右上角的設定按鈕 > 點擊**篩選器和封鎖的地址**
+2. 點擊下方的**匯入篩選器**
+3. 點擊**選擇檔案**
+4. 選擇 mailFilters.xml 後點擊**開啟檔案**
