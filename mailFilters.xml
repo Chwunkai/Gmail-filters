@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:z0000001737251820064*1355599706165808940,z0000001737251871693*7829140950556782701,z0000001737251910045*6731283005029099701,z0000001737251966786*4771925441511413981,z0000001737252017428*5611425436197912663,z0000001737252055202*1379916451667937711,z0000001737252115076*4502145363597141916,z0000001737252169413*4250387539133162639,z0000001737252225885*1946461772205589227</id>
+	<updated>2026-03-22T04:28:20Z</updated>
+	<author>
+		<name>曹純愷</name>
+		<email>chwunkai@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001737251820064*1355599706165808940</id>
+		<updated>2026-03-22T04:28:20Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='subject:({&quot;訂單&quot; &quot;確認訂餐&quot; &quot;網路訂餐明細&quot; &quot;搭乘的行程&quot; &quot;行程取消&quot; (&quot;訂購&quot; {&quot;成功&quot; &quot;確認&quot; &quot;訊息&quot; &quot;通知&quot; &quot;單&quot; &quot;的&quot;}) (&quot;感謝&quot; {&quot;訂購&quot; &quot;訂餐&quot; &quot;購買&quot; &quot;惠顧&quot;}) &quot;購買成功&quot; &quot;購買通知&quot; &quot;交易成功&quot; &quot;交易取消&quot; &quot;取消交易&quot; &quot;付款成功&quot; &quot;付款失敗&quot; &quot;付款完成&quot; &quot;付款結果&quot; &quot;付款交易&quot; &quot;已付款&quot; &quot;已出貨&quot; &quot;出貨通知&quot; &quot;出貨提醒&quot; &quot;出貨簡訊&quot; &quot;出貨完成&quot; &quot;開始出貨&quot; &quot;準備出貨&quot; &quot;已寄出&quot; &quot;已經遞送&quot; &quot;派送通知&quot; &quot;發貨&quot; &quot;送貨&quot; &quot;送達&quot; &quot;運送&quot; &quot;到貨通知&quot;} -{&quot;發票&quot; &quot;收據&quot; &quot;優惠&quot; &quot;調整&quot; &quot;提領&quot; &quot;invoice&quot; &quot;receipt&quot; &quot;pre-order&quot; &quot;order now&quot;})'/>
+		<apps:property name='label' value='訂單通知'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001737251871693*7829140950556782701</id>
+		<updated>2026-03-22T04:28:20Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='subject:({&quot;取貨通知&quot; ({&quot;已追蹤&quot; &quot;可提領&quot;} &quot;現金回饋&quot;) &quot;最新交易&quot; &quot;刷卡結果&quot; &quot;信用卡交易結果&quot; &quot;會員資格&quot; &quot;已購買&quot; &quot;已訂閱&quot; &quot;你訂閱的&quot; &quot;訂閱方案&quot; &quot;訂閱項目&quot; (&quot;訂閱&quot; {&quot;確認&quot; &quot;取消&quot;}) &quot;退訂申請&quot; &quot;即將續訂&quot; &quot;已被續訂&quot; &quot;訂票確認&quot; &quot;購票確認&quot; &quot;支持成功&quot; &quot;匯款成功&quot; &quot;收款成功&quot; &quot;繳款成功&quot; &quot;繳款完成&quot; &quot;提款申請&quot; &quot;提款完成&quot; &quot;付款確認&quot; &quot;款項&quot; &quot;退款&quot; &quot;退貨&quot; &quot;評價&quot; &quot;購物滿意度&quot; &quot;交易審核&quot; &quot;購買清單&quot; &quot;購物清單&quot;} -{&quot;發票&quot; &quot;收據&quot; &quot;優惠&quot; &quot;電子報&quot; &quot;活動通知&quot; &quot;invoice&quot; &quot;receipt&quot; &quot;pre-order&quot; &quot;order now&quot;}) -from:曹純愷'/>
+		<apps:property name='label' value='訂單通知'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001737251910045*6731283005029099701</id>
+		<updated>2026-03-22T04:28:20Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='subject:({&quot;試用期&quot; &quot;加值服務&quot; &quot;感謝您的惠顧&quot; &quot;轉運單&quot; &quot;貨件&quot; &quot;貨物&quot; &quot;包裹&quot; &quot;購買最新狀態&quot; &quot;收費通知&quot; &quot;準備取件&quot; &quot;授權付款&quot; &quot;成功支付&quot; &quot;自動續購&quot; &quot;正式成為&quot; &quot;shipped&quot; &quot;on its way&quot; &quot;order&quot; &quot;ordered&quot; &quot;purchase success&quot; (&quot;payment&quot; {&quot;successful&quot; &quot;succeeded&quot;}) &quot;buy with card&quot; &quot;be canceled&quot;} -{&quot;發票&quot; &quot;收據&quot; &quot;優惠&quot; &quot;invoice&quot; &quot;receipt&quot; &quot;pre-order&quot; &quot;order now&quot;})'/>
+		<apps:property name='label' value='訂單通知'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001737251966786*4771925441511413981</id>
+		<updated>2026-03-22T04:28:20Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='subject:({&quot;登入通知&quot; &quot;登入成功&quot; &quot;登录成功&quot; &quot;成功登入&quot; &quot;登入裝置&quot; &quot;裝置登入&quot; &quot;新裝置&quot; &quot;一台新設備&quot; &quot;新登录&quot; &quot;正登入&quot; &quot;有登入&quot; &quot;繼續進行下個步驟&quot; &quot;帳密驗證成功&quot; (&quot;從新&quot; &quot;IP&quot;) (&quot;登入&quot; {&quot;新&quot; &quot;有人&quot; &quot;保持&quot; &quot;失敗&quot; &quot;錯誤&quot; &quot;異常&quot; &quot;警告&quot; &quot;警示&quot; &quot;提示&quot; &quot;確認&quot; &quot;安全性&quot; &quot;位置&quot;})} -({(&quot;登入&quot; {&quot;驗證&quot; &quot;認證&quot;}) &quot;登入密碼通知&quot; &quot;免費&quot;} -{&quot;登入裝置&quot; &quot;啟用&quot; &quot;成功&quot;}))'/>
+		<apps:property name='label' value='登入通知'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001737252017428*5611425436197912663</id>
+		<updated>2026-03-22T04:28:20Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='{subject:({&quot;login&quot; &quot;login attempted&quot; &quot;new login&quot; &quot;new device&quot; &quot;sign in&quot; &quot;signed in&quot; &quot;has been accessed&quot;} -{&quot;can&apos;t&quot; &quot;turned&quot; &quot;code&quot;}) {&quot;新的裝置登入&quot; &quot;新的登入活動&quot; &quot;已取得您的 Google 帳戶存取權&quot; &quot;已登出帳戶&quot;}}'/>
+		<apps:property name='label' value='登入通知'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001737252055202*1379916451667937711</id>
+		<updated>2026-03-22T04:28:20Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='subject:({&quot;發票&quot; &quot;收據&quot; &quot;繳費結果&quot; &quot;invoice&quot; &quot;receipt&quot;} -{&quot;歸戶設定&quot; &quot;驗證碼&quot; &quot;密碼&quot; &quot;領獎資料&quot; &quot;兌獎結果&quot; &quot;發票存摺&quot; &quot;中獎&quot;})'/>
+		<apps:property name='label' value='發票收據'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001737252115076*4502145363597141916</id>
+		<updated>2026-03-22T04:28:20Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='subject:({&quot;驗證碼&quot; &quot;驗證信&quot; &quot;認證碼&quot; &quot;認證信&quot; ({&quot;認證&quot; &quot;一次性&quot; &quot;動態&quot;} &quot;密碼&quot;) ({&quot;驗證&quot; &quot;验证&quot; &quot;認證&quot; (&quot;確認&quot; -&quot;登入&quot;)} {&quot;email&quot; &quot;e-mail&quot; &quot;電子郵件&quot; &quot;電郵&quot; &quot;郵件&quot; &quot;郵箱&quot; &quot;邮箱&quot; &quot;信箱&quot; &quot;帳號&quot; &quot;帳戶&quot; &quot;身份&quot; &quot;憑證&quot; &quot;登入&quot; &quot;註冊&quot;}) ({&quot;verification&quot; &quot;verify&quot; &quot;confirmation&quot; &quot;confirm&quot;} {&quot;email&quot; &quot;e-mail&quot; &quot;code&quot; &quot;access&quot; &quot;enabling&quot; &quot;device&quot; (&quot;your&quot; &quot;account&quot; -&quot;documentation&quot;)}) ({&quot;你的&quot; &quot;your&quot;} {&quot;代碼&quot; &quot;code&quot;})} -{&quot;登入裝置&quot; &quot;已&quot; (&quot;啟用&quot; -&quot;立即&quot;) &quot;成功&quot; &quot;設定&quot; &quot;結果&quot; &quot;更新&quot; &quot;補件&quot; &quot;申請交易認證碼&quot; &quot;安全性&quot; &quot;競賽&quot; &quot;失效&quot;})'/>
+		<apps:property name='label' value='驗證信'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001737252169413*4250387539133162639</id>
+		<updated>2026-03-22T04:28:20Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='subject:({&quot;對帳單&quot; &quot;電子帳單&quot; &quot;電子消費通知書&quot; &quot;費用通知單&quot; &quot;月結單&quot; ({&quot;電費&quot; &quot;水費&quot;} {&quot;通知&quot; &quot;憑證&quot;})} -{&quot;申辦&quot;})'/>
+		<apps:property name='label' value='電子帳單'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001737252225885*1946461772205589227</id>
+		<updated>2026-03-22T04:28:20Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='subject:({({&quot;轉帳&quot; &quot;帳務&quot; (&quot;信用卡&quot; {&quot;繳費&quot; &quot;繳款&quot; &quot;交易&quot;}) (&quot;新光&quot; {&quot;刷卡&quot; &quot;交易回報&quot;})} &quot;通知&quot;) ({&quot;轉入&quot; &quot;轉出&quot; &quot;郵局&quot; &quot;帳戶連結&quot; &quot;帳戶提領&quot; &quot;account link&quot;} &quot;交易&quot;) ({&quot;ATM&quot; &quot;無卡&quot;} &quot;提款&quot;) ({&quot;開立&quot; &quot;解約&quot;} &quot;定存&quot;) &quot;收益分配&quot;} -{&quot;申請&quot; &quot;設定&quot; &quot;無法&quot; &quot;付款&quot; &quot;條款&quot; &quot;調整&quot;})'/>
+		<apps:property name='label' value='銀行交易通知'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>
